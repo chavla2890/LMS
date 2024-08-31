@@ -60,14 +60,23 @@ This project implements a simple library management system that allows users to 
 ## Usage
 
 ### Adding Books
-
-Create a `Library` object and use the `addBook` method to add books:
-
 ![Adding Books](./scr/screenshot/addBooks.png)
+
+### View After Adding Books
 ![View After Adding Books](./scr/screenshot/viewAddedBook%20-%20Copy.png)
+
+### Borrowing Books
 ![Borrowing Books](./scr/screenshot/borrowingBook.png)
+
+### View After Book Borrow
 ![View After Borrowing Books](./scr/screenshot/viewAfterBorrowingBook.png)
+
+### Returning Book
 ![Returning Books](./scr/screenshot/returningBook.png)
+
+### View After Returning Book
 ![View After Book Return](./scr/screenshot/viewReturningBook.png)
+
+### TestCases
 ![TestCases](./scr/screenshot/test.png)
 
