@@ -10,8 +10,8 @@ This project implements a simple library management system that allows users to 
 - **Add Books**: Users can add new books with a unique ISBN, title, author, and publication year.
 - **Borrow Books**: Users can borrow available books. The system ensures books are available before borrowing.
 - **Return Books**: Users can return borrowed books, updating their availability.
+- **View All Books**: Users can print all books.
 - **View Available Books**: Users can view a list of all available books.
-- **Print All Books**: Users can print all books.
 
 ## Project Structure
 
@@ -37,7 +37,7 @@ This project implements a simple library management system that allows users to 
     cd Incubyte
     ```
 
-2. **Build the Project**:
+2. **Build the Project / Install Denpendencies**:
 
     Use Maven to build the project:
 
@@ -60,14 +60,23 @@ This project implements a simple library management system that allows users to 
 ## Usage
 
 ### Adding Books
-
-Create a `Library` object and use the `addBook` method to add books:
-
 ![Adding Books](./scr/screenshot/addBooks.png)
+
+### View After Adding Books
 ![View After Adding Books](./scr/screenshot/viewAddedBook%20-%20Copy.png)
+
+### Borrowing Books
 ![Borrowing Books](./scr/screenshot/borrowingBook.png)
+
+### View After Book Borrow
 ![View After Borrowing Books](./scr/screenshot/viewAfterBorrowingBook.png)
+
+### Returning Book
 ![Returning Books](./scr/screenshot/returningBook.png)
+
+### View After Returning Book
 ![View After Book Return](./scr/screenshot/viewReturningBook.png)
+
+### TestCases
 ![TestCases](./scr/screenshot/test.png)
 

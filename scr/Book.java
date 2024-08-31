@@ -36,7 +36,7 @@ public class Book {
         this.available = available;
     }
 
-    @Override
+    
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -46,7 +46,7 @@ public class Book {
         return isbn.equals(book.isbn);
     }
 
-    @Override
+    
     public int hashCode() {
         return isbn.hashCode();
     }
