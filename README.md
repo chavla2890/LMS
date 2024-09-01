@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project implements a simple library management system that allows users to perform basic operations such as adding books, borrowing books, returning books, viewing available books, and printing all books.
+This project implements a simple library management system that allows users to perform basic operations such as adding books, borrowing books, returning books, viewing all books and viewing available books.
 
 ## Features
 
@@ -15,10 +15,10 @@ This project implements a simple library management system that allows users to 
 
 ## Project Structure
 
-- `Library.java`: The main class containing the library management system's functionality.
+- `Library.java`: The class containing the library management system's functionality.
 - `Book.java`: The class representing a book with attributes like ISBN, title, author, and publication year.
 - `LibraryTest.java`: Contains JUnit tests for verifying the functionality of the library management system.
-- `Main.java`: The File is use to run this project
+- `Main.java`: The main file is use to run this project
 
 ## Getting Started
 
@@ -103,6 +103,13 @@ public static void main(String args[]){
 }
 
 ```
+### For run this follow the step:
+1. Open ternimal 
+2. Navigate to Incubyte Folder
+3. Type `javac Main.java` it will build class
+4. Then type `java Main.java` it will run your file
+
+
 ## Sreenshots
 ### Adding Books
 ![Adding Books](./scr/screenshot/addBooks.png)
